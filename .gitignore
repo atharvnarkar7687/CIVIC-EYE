@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+
+# API keys and secrets
+.env
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local database
+database/*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded user images
+uploads/*
+
+# Temporary files
+*.log
+.DS_Store
