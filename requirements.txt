@@ -1,1 +1,10 @@
+
+streamlit
+google-genai
 python-dotenv
+Pillow
+pandas
+plotly
+folium
+streamlit-folium
+streamlit-geolocation
