@@ -89,9 +89,11 @@ def initialize_database():
     "longitude": "REAL",
     "assigned_department": "TEXT",
     "assigned_at": "TEXT",
-    "repair_image_path": "TEXT"
-     }
-
+    "repair_image_path": "TEXT",
+    "repair_analysis": "TEXT",
+    "repair_uploaded_at": "TEXT",
+    "repair_verified": "INTEGER DEFAULT 0"
+}
     for column_name, column_type in migrations.items():
 
         if column_name not in existing_columns:
