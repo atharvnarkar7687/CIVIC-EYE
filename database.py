@@ -85,11 +85,12 @@ def initialize_database():
 
     # Add missing columns to older databases
     migrations = {
-        "latitude": "REAL",
-        "longitude": "REAL",
-        "assigned_department": "TEXT",
-        "assigned_at": "TEXT"
-    }
+    "latitude": "REAL",
+    "longitude": "REAL",
+    "assigned_department": "TEXT",
+    "assigned_at": "TEXT",
+    "repair_image_path": "TEXT"
+     }
 
     for column_name, column_type in migrations.items():
 
